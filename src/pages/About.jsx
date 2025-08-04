@@ -78,7 +78,7 @@ export default function About() {
             {/* Resume Button */}
         <div className="mt-6">
           <a
-            href="/Arnob-Sarker-Resume.pdf" // ✅ Replace with your actual resume path
+            href="/resume.pdf" // ✅ Replace with your actual resume path
             download
             className="inline-flex items-center gap-2 px-6 py-3 rounded-md border border-blue-500 bg-blue-500 text-white font-semibold hover:bg-transparent hover:text-blue-400 transition duration-300 glow"
           >
