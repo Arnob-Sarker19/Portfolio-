@@ -5,7 +5,9 @@ import { Download } from "lucide-react"; // Optional icon (you can remove if not
 
 export default function About() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12 flex flex-col-reverse md:flex-row items-center gap-8">
+
+    <div className="max-w-6xl mx-auto px-4 py-12 flex flex-col-reverse md:flex-row items-top gap-32">
+
       {/* Text Section */}
       <div className="w-full md:w-2/3 text-center md:text-left space-y-6">
         <h2 className="text-3xl md:text-4xl font-bold text-blue-400">
@@ -72,6 +74,7 @@ export default function About() {
 `}</code>
           </pre>
         </div>
+        
             {/* Resume Button */}
         <div className="mt-6">
           <a
@@ -86,15 +89,15 @@ export default function About() {
       </div>
       
 
+      
       {/* Profile Image */}
-      <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
+      <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-purple-500 shadow-lg">
         <img
           src={profileImg}
           alt="Arnob Sarker"
-          className="w-full h-full object-cover"
+          className="w-full h-full  object-cover"
         />
       </div>
-      
     </div>
   );
 }
