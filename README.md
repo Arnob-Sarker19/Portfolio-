@@ -50,24 +50,19 @@ npm install
 
 # Start the development server
 npm run dev
-
+---------------------------------------------------------------------------------------------------------------
 
 🌐 Live Demo
-🔗 Visit now: arnobsarker.dev
-
-(Replace with your actual domain or Vercel URL)
+🔗 Visit now: https://portfolio-arnob.vercel.app/
 
 🙋‍♂️ About Me
 I'm Arnob Sarker, a junior front-end developer passionate about clean code, smooth UX, and creative UI development. I'm currently exploring React, Firebase, and Node.js. Let's collaborate and build something amazing together!
 
 📬 Contact
-📧 Email: arnob.dev.bd@gmail.com
+📧 Email: sarkerarnobsarker21@gmail.com
 
-🌐 Website: arnobsarker.dev
+💼 LinkedIn: www.linkedin.com/in/arnob-sarker-a0186866s
 
-💼 LinkedIn: linkedin.com/in/arnobsarker
-
-🐙 GitHub: github.com/arnobsarker
 
 ⭐️ Show Your Support
 If you liked this portfolio, please ⭐️ the repo!

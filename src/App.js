@@ -7,7 +7,7 @@ export default function App() {
   const [currentTab, setCurrentTab] = useState("about");
 
   return (
-    <div className="flex h-screen bg-[#0d1117] text-white font-mono">
+    <div className="flex  h-screen bg-[#0d1117] text-white font-mono">
       <Sidebar setCurrentTab={setCurrentTab} />
       <EditorLayout tab={currentTab} setTab={setCurrentTab} />
     </div>

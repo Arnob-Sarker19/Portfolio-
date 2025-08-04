@@ -1,9 +1,33 @@
-/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@layer utilities {
+  .glassmorphic {
+    @apply bg-[#161b22]/60 backdrop-blur-sm border border-gray-800;
+  }
+
+  .social-btn {
+    @apply bg-[#1e1e1e] hover:bg-[#2e2e2e] p-4 rounded-lg transition text-gray-300 hover:text-white border border-gray-700 shadow-md;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
 
 body {
   @apply bg-[#0d1117] text-white;
@@ -26,20 +50,4 @@ button:hover.glow {
 ::-webkit-scrollbar-thumb {
   background: #333;
   border-radius: 6px;
-}
-@layer utilities {
-  .animate-fade-in {
-    animation: fadeIn 0.5s ease-in-out forwards;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(4px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 }
