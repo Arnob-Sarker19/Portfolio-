@@ -83,7 +83,7 @@ const Contact = () => {
             <a href="https://github.com/Arnob-Sarker19" target="_blank" rel="noreferrer" className="social-btn">
               <Github />
             </a>
-            <a href="https://www.linkedin.com/in/arnob-sarker-a0186866s" target="_blank" rel="noreferrer" className="social-btn">
+            <a href="https://www.linkedin.com/in/arnob-sarker21" target="_blank" rel="noreferrer" className="social-btn">
               <Linkedin />
             </a>
             <a href="https://www.facebook.com/arnobs21" target="_blank" rel="noreferrer" className="social-btn">
